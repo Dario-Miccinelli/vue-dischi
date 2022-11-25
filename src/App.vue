@@ -1,17 +1,20 @@
 <template>
   <div id="app" class="bg-dark">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    
+    <BarraHeader />
+    <MainContent />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import BarraHeader from './components/BarraHeader.vue'
+import MainContent from './components/MainContent.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    BarraHeader,
+    MainContent
   }
 }
 </script>
