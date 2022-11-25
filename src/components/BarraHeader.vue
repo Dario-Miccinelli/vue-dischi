@@ -16,7 +16,14 @@
 
 
 
-
+<script>
+export default {
+  name: 'BarraHeader',
+  props: {
+    
+  }
+}
+</script>
 
   
   <style scoped lang="scss">
