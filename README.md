@@ -12,5 +12,4 @@ npm run serve
 
 
 
-
-![alt text](https://files.slack.com/files-pri/T91QPE3BP-F04CA1762UW/image.png)
+![Screenshot](image.png)
