@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="bg-dark">
+  <div id="app" >
     
     <BarraHeader />
     <MainContent />
@@ -25,7 +25,11 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  height: 100vh;
+  background-color: rgb(30, 45, 59);
+}
+
+* {
+  margin: 0;
 }
 </style>
