@@ -1,6 +1,9 @@
 <template>
   <div>
+
+    
     <div class="calc">
+      
      
         <div class="card text-white p-4" style="width: 18rem">
           <img :src="card.poster" class="card-img-top" alt="..." />
